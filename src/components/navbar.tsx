@@ -1,4 +1,5 @@
 import { FaSearch } from 'react-icons/fa'
+import { IoCloseSharp } from 'react-icons/io5'
 
 const routes = ["women's wear", "men's wear", 'kids', 'sale', 'discover']
 export function NavBar() {
@@ -36,7 +37,9 @@ export function NavBar() {
         </form>
       </div>
       <div className="block md:hidden">
-        <button>X</button>
+        <button>
+          <IoCloseSharp className="text-2xl" />
+        </button>
       </div>
     </nav>
   )

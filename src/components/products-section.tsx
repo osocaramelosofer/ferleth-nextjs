@@ -49,14 +49,14 @@ export function ProductsSection() {
       </nav>
       {/* PRODUCTS */}
       <div className="mt-5">
-        <div className="product-wrapper flex flex-wrap gap-2">
+        <div className="product-wrapper flex flex-wrap gap-2 ">
           {products.map(({ url }, index) => {
             return (
               <div
                 className="card-product flex-col flex hover:cursor-pointer"
                 key={index}
               >
-                <div className="flex-auto max-w-[300px] overflow-hidden max-h-[300px] aspect-[4/3] rounded-xl">
+                <div className="flex-auto w-full md:max-w-[300px] overflow-hidden max-h-[300px] aspect-[4/3] rounded-xl">
                   <img
                     className="w-full h-ful object-cover"
                     src={url}
