@@ -12,7 +12,10 @@ export function NavBar() {
 
       <ul className="list-none md:flex gap-x-5 hidden ">
         {routes.map((route) => (
-          <li className="route" key={route}>
+          <li
+            className="route hover:cursor-pointer border-transparent border-b-2  hover:border-black transition-all duration-300"
+            key={route}
+          >
             {route}
           </li>
         ))}
