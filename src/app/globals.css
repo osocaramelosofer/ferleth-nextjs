@@ -39,4 +39,28 @@
   .chip:hover {
     color: white; /* Cambia el texto cuando se hace hover */
   }
+  .contact-btn {
+    position: relative;
+    background-color: transparent;
+    color: white;
+    overflow: hidden;
+  }
+  .contact-btn:hover {
+    color: black;
+  }
+  .contact-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: white;
+    z-index: -1;
+    transition: width 300ms ease;
+    border-radius: 9999px;
+  }
+  .contact-btn:hover::before {
+    width: 100%;
+  }
 }
