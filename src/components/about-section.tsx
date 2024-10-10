@@ -7,8 +7,8 @@ export function AboutSection() {
   return (
     <section className="my-20">
       <div className="flex">
-        <div className="flex gap-4 md:flex-row flex-col-reverse">
-          <div className="w-full md:w-2/5 aspect-auto rounded-2xl overflow-hidden relative">
+        <div className="flex gap-4 lg:flex-row flex-col-reverse">
+          <div className="w-full lg:w-2/5 aspect-auto rounded-2xl overflow-hidden relative">
             <img
               className="h-full w-full object-cover"
               src="https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-AI710938516003_alternate1?$rl_4x5_pdp$"
@@ -39,7 +39,7 @@ export function AboutSection() {
               <div className="card1 flex-initial">
                 <div className="flex items-center">
                   <GiEcology className="text-2xl md:text-4xl mr-2" />
-                  <span className="font-rubik tracking-tighter text-md md:text-xl">
+                  <span className="font-rubik tracking-tighter text-md lg:text-4xl">
                     sustainability
                   </span>
                 </div>
@@ -50,7 +50,7 @@ export function AboutSection() {
               </div>
               <div className="card1 flex-initial">
                 <div className="flex items-center">
-                  <GiEarthAmerica className="text-2xl md:text-4xl mr-2" />
+                  <GiEarthAmerica className="text-md lg:text-4xl mr-2" />
                   <span className="font-rubik tracking-tighter text-md md:text-xl">
                     mission
                   </span>
