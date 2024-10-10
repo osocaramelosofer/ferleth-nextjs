@@ -52,13 +52,13 @@ export function HeroSection() {
 
           <div className="absolute bottom-0 inset-x-0 flex justify-end mb-4 mr-4 gap-x-4">
             <div className="contact-btn backdrop-blur-md flex border-2 p-1 border-white rounded-full items-center hover:cursor-pointer">
-              <span className=" text-black font-normal text-sm md:text-md font-rubik">
+              <span className=" text-black font-normal text-xs text-center leading-none md:leading-normal md:text-md font-rubik">
                 learn more
               </span>
               <FaCircleArrowDown className="text-black ml-2 text-sm md:text-md" />
             </div>
             <div className="contact-btn backdrop-blur-md flex border-2 p-1 border-white rounded-full items-center hover:cursor-pointer">
-              <span className="text-black  font-normal text-sm md:text-md font-rubik">
+              <span className="text-black  font-normal text-xs text-center leading-none md:leading-normal md:text-md font-rubik">
                 contact us
               </span>
               <MdOutlineMail className="text-black ml-2 text-md md:text-lg" />

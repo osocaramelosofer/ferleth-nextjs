@@ -3,11 +3,6 @@
 @tailwind utilities;
 
 @layer components {
-  .route {
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-
   .chip {
     position: relative;
     border: 2px solid black;
