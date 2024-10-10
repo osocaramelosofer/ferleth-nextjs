@@ -1,14 +1,14 @@
 export function FooterComponent() {
   return (
     <footer className="p-10">
-      <div className="flex justify-items-baseline justify-between flex-col md:flex-row">
+      <div className="flex flex-wrap gap-10 justify-items-baseline justify-between flex-col md:flex-row">
         <div>
           <span className="font-rubik text-5xl text-white">ferlet</span>
           <p className="text-xl semi-bold text-white uppercase">
             for everyone but notanyone
           </p>
         </div>
-        <div className="colum-wrapper flex text-neutral-200 gap-32 flex-col md:flex-row">
+        <div className="colum-wrapper flex flex-wrap text-neutral-200 gap-32 flex-col md:flex-row">
           <div className="col">
             <span className="uppercase font-bold text-2xl ">product</span>
             <ul className="">

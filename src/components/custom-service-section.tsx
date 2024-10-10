@@ -17,11 +17,11 @@ export function CustomServiceSection() {
               src="https://media.istockphoto.com/id/1345105817/photo/young-female-customer-shopping-in-clothing-store-retail-sales-associate-helps-with-advice.jpg?s=612x612&w=0&k=20&c=i-Yf4mjiN3kHD9W5BrY3O80GBLRxA6vuLpuSga2pb-E="
               alt="custom service"
             />
-            <div className="bg-white rounded-2xl p-2 absolute bottom-0 inset-x-0 mx-auto w-max">
+            <div className="bg-white rounded-full p-2 absolute bottom-0 inset-x-0 mx-auto w-max mb-2">
               <div className="flex  items-center p-2 rounded-2xl">
                 <FaPlay className="mr-2" />
                 <span className="uppercase semi-bold">
-                  learn more about our services
+                  see all our services
                 </span>
               </div>
             </div>
