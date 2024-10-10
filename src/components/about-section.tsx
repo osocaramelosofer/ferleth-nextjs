@@ -38,8 +38,8 @@ export function AboutSection() {
             <div className="container-cards flex flex-col md:flex-row border-[2px] border-[#536f2f] rounded-xl p-4 gap-8 ">
               <div className="card1 flex-initial">
                 <div className="flex items-center">
-                  <GiEcology className="text-4xl mr-2" />
-                  <span className="font-rubik tracking-tighter text-xl">
+                  <GiEcology className="text-2xl md:text-4xl mr-2" />
+                  <span className="font-rubik tracking-tighter text-md md:text-xl">
                     sustainability
                   </span>
                 </div>
@@ -50,8 +50,8 @@ export function AboutSection() {
               </div>
               <div className="card1 flex-initial">
                 <div className="flex items-center">
-                  <GiEarthAmerica className="text-2xl mr-2" />
-                  <span className="font-rubik tracking-tighter text-xl">
+                  <GiEarthAmerica className="text-2xl md:text-4xl mr-2" />
+                  <span className="font-rubik tracking-tighter text-md md:text-xl">
                     mission
                   </span>
                 </div>
